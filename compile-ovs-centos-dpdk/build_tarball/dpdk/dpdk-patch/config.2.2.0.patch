@@ -1,0 +1,11 @@
+--- config/common_linuxapp	2015-12-15 17:06:58.000000000 +0000
++++ config/common_linuxapp.new	2015-12-31 00:47:18.507280959 +0000
+@@ -86,7 +86,7 @@
+ #
+ # Combine to one single library
+ #
+-CONFIG_RTE_BUILD_COMBINE_LIBS=n
++CONFIG_RTE_BUILD_COMBINE_LIBS=y
+ 
+ #
+ # Use newest code breaking previous ABI

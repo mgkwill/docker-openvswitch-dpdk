@@ -1,0 +1,1 @@
+cmd_/vagrant/build_tarball/dpdk/dpdk-2.2.0/x86_64-ivshmem-linuxapp-gcc/build/lib/librte_eal/linuxapp/kni/built-in.o :=  rm -f /vagrant/build_tarball/dpdk/dpdk-2.2.0/x86_64-ivshmem-linuxapp-gcc/build/lib/librte_eal/linuxapp/kni/built-in.o; ar rcsD /vagrant/build_tarball/dpdk/dpdk-2.2.0/x86_64-ivshmem-linuxapp-gcc/build/lib/librte_eal/linuxapp/kni/built-in.o

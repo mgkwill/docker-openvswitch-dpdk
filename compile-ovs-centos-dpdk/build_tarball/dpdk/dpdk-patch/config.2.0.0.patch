@@ -1,0 +1,20 @@
+--- config/common_linuxapp.orig 2015-05-18 17:39:44.488021385 -0700
++++ config/common_linuxapp      2015-05-18 17:42:20.496021531 -0700
+@@ -81,7 +81,7 @@
+ #
+ # Combine to one single library
+ #
+-CONFIG_RTE_BUILD_COMBINE_LIBS=n
++CONFIG_RTE_BUILD_COMBINE_LIBS=y
+ CONFIG_RTE_LIBNAME="intel_dpdk"
+ 
+ #
+@@ -418,7 +418,7 @@
+ # fuse-devel enables user space char driver development
+ # vhost-user is turned on by default.
+ #
+-CONFIG_RTE_LIBRTE_VHOST=n
++CONFIG_RTE_LIBRTE_VHOST=y
+ CONFIG_RTE_LIBRTE_VHOST_USER=y
+ CONFIG_RTE_LIBRTE_VHOST_DEBUG=n
+ 
